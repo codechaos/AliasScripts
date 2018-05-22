@@ -1,2 +1,2 @@
 @echo off
-git log --graph --pretty=format:"%%Cred%%h%%Creset -%%C(yellow)%%d%%Creset %%s %%Cgreen(%%cr) %%C(bold blue)<%%an>%%Creset" --abbrev-commit -n 10 %*
+git log --graph --pretty=format:"%%Cblue%%>(10)%%ad %%Cred%%h%%Creset -%%C(yellow)%%d%%Creset %%s %%Cgreen(%%cr) %%C(bold blue)<%%an>%%Creset" --date=format:"%%d.%%m.%%Y %%H:%%M" --abbrev-commit -n 10 %*

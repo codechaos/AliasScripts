@@ -12,4 +12,4 @@ IF "%showhelp%" == "true" (
 	EXIT /B 0
 )
 
-git commit --fixup %1
+git commit -a --fixup %1
